@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- The order of the styling depends upon the Rule of Execution.
+    The rule of Execution means, How we read a book that from right to left and top to bottom -->
+
+    <!-- external css -->
+
+    <link rel="stylesheet" href="order_of_css.css"> 
+
+    <!-- internal and external css depends upon the priority order of writing. Therefore,
+    whatever the styling is last, that styling will going to execute. -->
+
+    <!-- internal css -->
+    <style>
+         h2{
+            background-color: blueviolet;
+            color:rgb(255, 138, 127);
+        }
+
+        h3{
+            background-color: aquamarine;
+            color: rgb(93, 7, 173);
+        }
+    </style>
+</head>
+<body>
+    <!-- inline css -->
+    <h2 style="color:blue; background-color: darkkhaki;">Hi my name is h2</h2>
+    <h3 style="color:crimson; background-color: cornflowerblue;">Hi my name is h3</h3>
+</body>
+</html>
