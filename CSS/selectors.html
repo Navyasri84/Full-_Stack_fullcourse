@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /*........ tag selector .........*/
+
+        /* syntax */
+
+        /* selector{
+                property: value;
+           } */
+    
+        h1{
+            color: brown;
+        }
+
+
+        /*........ Id selector .........*/
+
+        /* syntax */
+
+        /* #Idname{
+                property: value;
+           } */
+        
+        #myid{
+            color: blueviolet;
+        }
+
+        /*........ class selector .........*/
+
+        /* syntax */
+
+        /* .classname{
+                property: value;
+           } */
+        
+        .myclass{
+            color: crimson;
+        }
+
+        /* ///////////.....Diff blw Id and Class......////////// */
+
+        .python{
+            color: darkblue;
+        }
+
+        .FS{
+            background-color: darkmagenta;
+        }
+
+       /*........ Universal selector .........*/
+
+        /* syntax */
+
+        /* *{
+                property: value;
+           } */
+
+        /* *{
+            font-family: cursive;
+            font-style: oblique;
+        } */
+
+        /*........... grouping of selectors........... */
+
+        /* syntax */
+
+        /* selector1 , selector2{
+                property: value;
+           } */
+
+        h4, h5{
+            font-family: monospace;
+            color: darkcyan;
+        }
+    </style>
+</head>
+<body>
+    <h1>selectors in css</h1>
+    <ol>
+        <li>Tag</li>
+        <li>Id</li>
+        <li>Class</li>
+        <li>Universal</li>
+        <li>Group</li>
+    </ol>
+    <h2 id="myid">Hi 1</h2>
+    <h2>Hi 2</h2>
+    <h2 class="myclass">Hi 3</h2>
+
+    <!--  ///////////.....Diff blw Id and Class.......///////// -->
+    <h3 class="python">A</h3>
+    <h3 class="FS">B</h3>
+    <h3 class="python FS">C</h3>
+
+    
+    <h4>I am h4</h4>
+    <h5>I am h5</h5>
+
+</body>
+</html>
