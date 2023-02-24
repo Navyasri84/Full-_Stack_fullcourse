@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /*  pseudo selectors */
+
+        /* selector: selected value{
+        } 
+        
+        :hover, :focus, :active...
+        */
+        h1{
+            color: aquamarine;
+            background-color: black;
+        }
+
+        h1:hover{
+            color: black;
+            background-color: aquamarine;
+        }
+
+        a{
+            text-decoration: none;
+            color: red;
+            font-size: x-large;
+            border: 2px solid slateblue;
+        }
+
+        a:hover{
+            color: blueviolet;
+            font-size: x-large;
+            text-transform: capitalize;
+            border: 2px solid red;
+        }
+
+        a:active{
+            color: darkgreen;
+        }
+
+        a:visited{
+            color: darkgreen;
+        }
+
+        input:focus{
+            background-color: aquamarine;
+        }
+
+    
+        /*  pseudo class selector  */
+
+        p::after{
+            content: "am after content";
+            background-color: darkgreen;
+        }
+        p::before{
+            content: "am before content";
+            background-color: deeppink;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <!-- pseudo selectors -->
+    <h1>Hi am pseudo</h1>
+
+    <a href="https://www.google.com/">go to google</a>
+
+    <input type="text">
+
+    <!-- pseudo class selector -->
+    <p>Hi am content of para</p>
+    
+</body>
+</html>
