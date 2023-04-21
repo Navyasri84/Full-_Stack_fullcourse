@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(228, 127, 178);
+        }
+        #lap{
+            background-color: rgb(163, 84, 236);
+        }
+        #tab{
+            display: none;
+        }
+        #mob{
+            display: none;
+        }
+        @media screen and (max-width: 770px){
+            body{
+                background-color: rgb(163, 84, 236);
+            }
+            #tab{
+                background-color: rgb(88, 232, 232);
+                display: block;
+            }
+            #lap{
+                display: none;
+            }
+            #mob{
+                display: none;
+            }
+        }
+        @media screen and (max-width:430px){
+            body{
+                background-color: rgb(88, 232, 232);
+            }
+            #mob{
+                background-color: rgb(228, 127, 178);
+                display: block;
+            }
+            #tab{
+            display: none;
+            }
+            #lap{
+            display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1 id="lap">Desktop</h1>
+    <h1 id="tab">Tablet</h1>
+    <h1 id="mob">Mobile</h1>
+</body>
+</html>
